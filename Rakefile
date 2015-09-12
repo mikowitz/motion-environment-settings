@@ -9,5 +9,3 @@ require "bundler/gem_tasks"
 
 require "yaml"
 require "./lib/motion-environment-settings"
-
-Dir.glob("lib/tasks/*.rake").each { |r| import r }
