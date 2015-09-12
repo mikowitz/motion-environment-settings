@@ -11,4 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Michael Berkowitz"]
   s.email = ["michael.berkowitz@gmail.com"]
   s.license = "MIT"
+
+  spec.files         = `git ls-files -z`.split("\x0")
+  spec.require_paths = ["lib"]
 end
