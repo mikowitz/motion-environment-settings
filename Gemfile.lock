@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    motion-yaml (1.4)
+    rake (10.4.2)
+    rake-hooks (1.2.3)
+      rake
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  motion-yaml (= 1.4)
+  rake
+  rake-hooks
+
+BUNDLED WITH
+   1.10.6
