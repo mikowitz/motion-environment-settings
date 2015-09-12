@@ -5,7 +5,7 @@ require "motion-environment-settings/version"
 
 Gem::Specification.new do |s|
   s.name = "motion-environment-settings"
-  s.version = Motion::EnvironmentSettings::Version
+  s.version = Motion::EnvironmentSettings::VERSION
   s.summary = "Manage environment settings for a RubyMotion project"
   s.description = "Manage environment settings for a RubyMotion project"
   s.authors = ["Michael Berkowitz"]
