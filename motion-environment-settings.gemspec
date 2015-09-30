@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.email = ["michael.berkowitz@gmail.com"]
   s.license = "MIT"
 
+  s.add_dependency "rake-hooks"
   s.files         = `git ls-files -z`.split("\x0")
   s.require_paths = ["lib"]
 end
