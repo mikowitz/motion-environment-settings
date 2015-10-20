@@ -26,6 +26,7 @@ Motion::Project::App.setup do |app|
   end
 end
 
+require "rake/hooks"
 require_relative "motion-environment-settings/generator"
 
 before :"build:simulator" do
