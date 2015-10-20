@@ -27,6 +27,14 @@ production.yml
 ```ruby
 api_host: http://productionurl
 ```
+
+By default, `motion-environment-settings` will look for these files in `your/app/root/config/environments`. You can customize this path by setting
+
+```ruby
+Motion::EnvironmentSettings.config_path = "your/custom/path"
+```
+
+in your Rakefile.
 ## Contributing
 
 1. Fork it
