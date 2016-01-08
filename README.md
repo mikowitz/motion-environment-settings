@@ -1,6 +1,6 @@
 # motion-environment-settings
 
-Create application settings that swap for a variety of environments.
+Define your environment-specific settings as YAML files, then access them easily via the `Settings` class inside your Rubymotion application.
 
 ## Installation
 
